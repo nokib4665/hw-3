@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400;1,600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+.vetcare1{
+    width: 80%;
+    margin: auto;
+}
+.vetcare1 .vetcarae-content1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 140px 0px 95px;
+}
+.vetcare1 .vetcarae-content1 h1{
+    font-size: 75px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #313243;
+    
+}
+.vetcare1 .vetcarae-content1 p{
+    font-size: 33.33px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #313243;
+    line-height: 45px;
+}
+/* doctor section*/
+.row11{
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.row11  .doctor-col a{
+    margin-right: 5%;
+    
+}
+.row11 .doctor-col .fab{
+    font-size: 20px;
+    color: #daac00;
+}
+.one{
+    text-align: center;
+    background-color: rgba(155, 148, 148,0.125);
+    padding-bottom: 25px;
+    padding-top: 40px;
+    z-index: 10;
+    max-width: 360px;
+
+}
+.row11  .doctor-col h2{
+    font-size: 29.17px;
+    font-weight: 700;
+    color: #313243;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+}
+.row11  .doctor-col h6{
+    font-size: 25px;
+    font-weight: 400;
+    color: #313243;
+    font-family: 'Poppins', sans-serif;
+    line-height: 40px;
+}
+.row11 .doctor-col .fab:hover{
+    color: #313243;
+}
+/* dog doctor*/
+.dog-doctor{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(rgba(241,193,31,0.85),rgba(241,193,31,0.85)),url(../image/Dog-doctor.jpg);
+    background-size: cover;
+}
+.counter{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 165px 0 170px;
+}
+.counter-col figure{
+   text-align: center;
+   color: #fff; 
+}
+.counter-col figure h2{
+    font-size: 40px;
+    color: #fff;
+}
+@media (max-width:768px){
+    .row11{
+        flex-direction: column;
+    }
+    .doctor-col{
+        max-width: 500px;
+        margin: 0px auto 15px;
+    }
+    .vetcare1 .vetcarae-content1 h1{
+        font-size: 54px;
+    }
+    .vetcare1 .vetcarae-content1 p{
+        font-size: 21.33px;
+    }
+    .counter-col figure h2{
+        font-size: 32px;
+    }
+}
+@media (max-width:401px){
+    .row1{
+        flex-direction: column;
+        
+    }
+    .counter-col{
+        margin-bottom: 30px;
+    }
+    .doctor-col{
+        margin-left: -27px;
+    }
+}
